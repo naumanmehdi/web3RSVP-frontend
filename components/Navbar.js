@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Navmenu from "./Navmenu";
-// adding wallet connection button 
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAccount, useDisconnect } from "wagmi";
+// adding wallet connection button 
 
 // using hooks to check if any connected wallet and disconnect the connected wallet 
 export default function Navbar() {
